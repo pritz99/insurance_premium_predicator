@@ -10,6 +10,10 @@
 
 A machine learning API that predicts a person's **insurance premium category** (`Low`, `Medium` or `High`) from basic personal details. The model is served with **FastAPI**, packaged with **Docker**, deployed on **AWS EC2**, and used through a **Streamlit** frontend.
 
+![Streamlit app calling the FastAPI model deployed on AWS](assets/streamlit_app.png)
+
+*The Streamlit frontend (running locally) sending a request to the FastAPI model deployed on AWS EC2.*
+
 ---
 
 ## 📐 Architecture
