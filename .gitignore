@@ -1,0 +1,21 @@
+# Virtual environment
+myenv/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pre-downloaded wheels for offline Docker builds (regenerate with pip download)
+wheels/
+
+# Secrets and local config
+.env
+*.pem
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
